@@ -1,3 +1,24 @@
+.hr-seperator {
+  background-image: radial-gradient(
+    circle,
+    rgba(210, 208, 208, 0.190914) 0%,
+    rgba(210, 208, 208, 0) 90%
+  );
+  border: none;
+  height: 2px;
+}
+@media (min-width: 1280px) {
+  .img-cover {
+    height: 700px;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+body {
+  background-color: #251431;
+}
 .App {
   text-align: center;
 }
