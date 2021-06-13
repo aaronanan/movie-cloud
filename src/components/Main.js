@@ -48,13 +48,13 @@ const Main = () => {
 
   return (
     <div className="pb-40">
-      <div className="sm:relative text-white h-full z-0">
+      <div className="relative text-white h-full z-0">
         <img
           src="https://image.tmdb.org/t/p/original/6ELCZlTA5lGUops70hKdB83WJxH.jpg"
           alt="Snow"
           className="xl:object-cover xl:w-full img-cover md:opacity-60 opacity-100"
         />
-        <div className="sm:absolute bottom-24 left-24 hidden sm:block">
+        <div className="absolute sm:bottom-24 sm:left-24 bottom-10 left-10">
           <p className="text-xl uppercase text-gray-300">Latest</p>
           <p className="text-3xl">Mortal Kombat</p>
           <p className="text-xl text-gray-100">Action / Fantasy | 7.6 Rating</p>
