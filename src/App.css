@@ -7,6 +7,18 @@
   border: none;
   height: 2px;
 }
+
+.search-hr-seperator {
+  background-image: radial-gradient(
+    circle,
+    rgb(96, 165, 250) 0%,
+    rgba(7, 35, 160, 0.74) 90%
+  );
+  border: none;
+  height: 3px;
+  width: 30%;
+}
+
 @media (min-width: 1280px) {
   .img-cover {
     height: 700px;
