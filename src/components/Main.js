@@ -59,6 +59,7 @@ const Main = () => {
   // 1. Click Poster for more info
   // 2. Main Image Background Image make it work dynamically
   // 3. Add Genres for each poster dynamically
+  // 4. Reuse Search Component for all categories **
 
   return (
     <div className="pb-40">
